@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style>
+			.test {
+
+				background-image: url('img/breakfast_image.jpg');
+				color:white;
+			}
+
+
+		</style>
+
+		<script>
+			
+			function testing() {
+				document.getElementById("abc").style.backgroundImage = 'url(img/lunch_image.jpg)';
+				alert(1);
+			}
+
+
+		</script>
+	</head>
+
+	<body onLoad='javascript:testing()'>
+
+		<div class="test" id="abc"> test <br><br><br><br> </div>
+	</body>
+
+</html>
